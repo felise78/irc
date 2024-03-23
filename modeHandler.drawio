@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-03-23T17:57:22.683Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="EsdixjCCS_KSMTIM4uMj" version="24.0.9" type="device">
+  <diagram name="Page-1" id="aMStiAr3BKv2ATmIRjCx">
+    <mxGraphModel dx="794" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-1" value="/MODE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-3" value="15:01 -!- Irssi: Not enough parameters given (win 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-4" value="/MODE -&lt;div&gt;/MODE +&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-5" value="ignored" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-6" value="/MODE -flags&lt;div&gt;/MODE +flags&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-6" target="ry-X7Ehtg5iY2fxfls8s-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="330" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-8" value="traite chaque flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-10" value="si unknown flag : envoie une erreur unknown flag juste au USER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-11" value="si flag correct, envoie une erreur de syntaxe juste au USER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-12" value="/MODE #channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-13" value="/MODE #unknownchannel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-12" target="ry-X7Ehtg5iY2fxfls8s-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-15" value="affiche les modes du channel dans la win du channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="ry-X7Ehtg5iY2fxfls8s-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="340" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-17" value="15:26 -!- #nefrffkorkf: No such channel (win 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ry-X7Ehtg5iY2fxfls8s-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="295" as="sourcePoint" />
+            <mxPoint x="250" y="325" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-8" target="ry-X7Ehtg5iY2fxfls8s-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="305" as="sourcePoint" />
+            <mxPoint x="400" y="305" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-22" value="/MODE flag #channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-23" value="/MODE #unknownchannel flag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-23" target="ry-X7Ehtg5iY2fxfls8s-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="620" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ry-X7Ehtg5iY2fxfls8s-22" target="ry-X7Ehtg5iY2fxfls8s-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="610" as="sourcePoint" />
+            <mxPoint x="30" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="620" />
+              <mxPoint x="40" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ry-X7Ehtg5iY2fxfls8s-26" value="comme /mode flags sauf qu&#39;il traite tout ce qu&#39;il y a apres comme un flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="440" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
